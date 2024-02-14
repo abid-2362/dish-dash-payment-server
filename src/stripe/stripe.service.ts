@@ -1,13 +1,7 @@
 import { Injectable } from "@nestjs/common";
 import { ConfigService } from "@nestjs/config";
 import {Stripe} from 'stripe'
-// const config = new ConfigService();
-// const stripe = new Stripe()
-// const stripe = require('stripe');
-// initialize Stripes configuration
-// const stripe = require('stripe')(config.get("STRIPE_SECRET_KEY"));
-// const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
-// console.log("stripe.service.ts", process.env.STRIPE_PUBLISHABLE_KEY);
+
 
 @Injectable()
 export class StripeService {
